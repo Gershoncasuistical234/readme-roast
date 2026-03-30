@@ -108,9 +108,17 @@ README_Score = (Hero * 0.25) + (Visuals * 0.20) + (Install * 0.15) + (Trust * 0.
 
 #### Star Killers Identification
 
-Compare each category score against the category benchmark average. The categories where the repo scores furthest below the benchmark average are the "star killers" — the issues most likely reducing star conversion.
+Compare each category score against the category benchmark average. **Only categories where the repo scores BELOW the benchmark average are star killers.** If a category score is at or above the category average, it is NOT a star killer — it is a strength.
 
-Rank star killers by: `benchmark_average - repo_score` (highest gap first).
+Calculation for each category:
+```
+gap = benchmark_average - repo_score
+```
+
+- If `gap > 0`: this is a star killer (repo is below average). Include it.
+- If `gap <= 0`: this is NOT a star killer (repo is at or above average). **Exclude it.**
+
+Rank included star killers by gap size (largest positive gap first). Report only the top 3. If fewer than 3 categories are below average, report only those that are.
 
 ---
 

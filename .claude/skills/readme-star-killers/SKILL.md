@@ -79,6 +79,18 @@ When no full audit exists, score each dimension with a fast heuristic:
 - Has explicit CTA? (+30)
 - Features describe benefits, not just features? (+30)
 
+## Star Killer Selection Rule
+
+For each of the 6 scoring categories, compute:
+```
+gap = category_benchmark_average - repo_score
+```
+
+**Only include categories where `gap > 0`** (repo is below average).
+Categories where `gap <= 0` are strengths — NEVER list them as star killers.
+
+Rank by gap size (largest first). Show top 3 max. If fewer than 3 are below average, show only those. If none are below average, say "No star killers — your README scores at or above category average across all dimensions."
+
 ## Output Format
 
 Display inline (no file output):

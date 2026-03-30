@@ -1,4 +1,4 @@
-{"version": 2, "width": 90, "height": 24, "timestamp": 1774864837, "env": {"SHELL": "/bin/zsh", "TERM": "xterm-256color"}}
+{"version": 2, "width": 90, "height": 24, "timestamp": 1774865039, "env": {"SHELL": "/bin/zsh", "TERM": "xterm-256color"}}
 [0.0, "o", "\u001b[1m\u001b[36m>\u001b[0m "]
 [0.53, "o", "/"]
 [0.56, "o", "r"]
@@ -97,9 +97,9 @@
 [13.4, "o", "\r\n\u001b[1mREADME Roast History -- eval-view\u001b[0m\r\n"]
 [13.6, "o", "\u001b[2mCategory: testing | Audits: 3 | Tracking since: 2026-03-16\u001b[0m\r\n\r\n"]
 [13.8, "o", "  \u001b[1mScore Progression:\u001b[0m\r\n"]
-[13.95, "o", "    #1  2026-03-16  \u001b[32m>>>>>>>>>\u001b[0m...........  47/100  \u001b[33mNeeds Work\u001b[0m   * 52\r\n"]
-[14.1, "o", "    #2  2026-03-23  \u001b[32m>>>>>>>>>>>>\u001b[0m........  65/100  \u001b[36mFair\u001b[0m         * 61   \u001b[32m+18\u001b[0m\r\n"]
-[14.25, "o", "    #3  2026-03-30  \u001b[32m>>>>>>>>>>>>>>>\u001b[0m.....  77/100  \u001b[32mGood\u001b[0m         * 77   \u001b[32m+12\u001b[0m\r\n"]
+[13.95, "o", "    #1  2026-03-16  \u001b[32m\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u001b[0m\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591  47/100  \u001b[33mNeeds Work\u001b[0m   * 52\r\n"]
+[14.1, "o", "    #2  2026-03-23  \u001b[32m\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u001b[0m\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591  65/100  \u001b[36mFair\u001b[0m         * 61   \u001b[32m+18\u001b[0m\r\n"]
+[14.25, "o", "    #3  2026-03-30  \u001b[32m\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u001b[0m\u2591\u2591\u2591\u2591\u2591  77/100  \u001b[32mGood\u001b[0m         * 77   \u001b[32m+12\u001b[0m\r\n"]
 [14.85, "o", "\r\n  \u001b[1mOverall: +30 points in 14 days | Stars: 52 -> 77 (+48%)\u001b[0m\r\n\r\n"]
 [15.05, "o", "  \u001b[1mKey Changes That Moved the Needle:\u001b[0m\r\n"]
 [15.15, "o", "    #1->#2: Added GIF demo \u001b[32m(+25 visuals)\u001b[0m, added comparison table \u001b[32m(+20 diff)\u001b[0m\r\n"]

@@ -18,6 +18,18 @@ Your README is your landing page. If visitors can't understand what your project
 
 We roasted our own README first. It scored **47/100**. We fixed it. You're reading the result.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Quick Start](#quick-start)
+- [Example: Roasting EvalView](#example-roasting-evalview-77-stars)
+- [What It Scores](#what-it-scores)
+- [Benchmark Categories](#benchmark-categories)
+- [All Commands](#all-commands)
+- [Track Your Progress](#track-your-progress)
+- [How It Works](#how-it-works)
+- [Contributing](#contributing)
+
 ## Prerequisites
 
 **Requires [Claude Code](https://claude.ai/code)** — README Roast runs as Claude Code skills. Install Claude Code first, then:

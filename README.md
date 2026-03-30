@@ -1,8 +1,5 @@
 <p align="center">
-  <h1 align="center">README Roast</h1>
-  <p align="center">
-    <strong>Roast your README against 116 top-starred repos (4.8M combined stars). Find what's killing your stars.</strong>
-  </p>
+  <img src="assets/logo.svg" alt="readme-roast" width="320">
 </p>
 
 <p align="center">

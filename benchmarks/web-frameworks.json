@@ -27,6 +27,15 @@
         "has_contributing": true,
         "has_license_badge": true,
         "has_community_link": true
+      },
+      "scores": {
+        "hero": 80,
+        "visuals": 68,
+        "install": 82,
+        "trust": 75,
+        "structure": 63,
+        "differentiation": 45,
+        "overall": 71
       }
     },
     {
@@ -50,6 +59,15 @@
         "has_contributing": false,
         "has_license_badge": false,
         "has_community_link": false
+      },
+      "scores": {
+        "hero": 85,
+        "visuals": 68,
+        "install": 82,
+        "trust": 50,
+        "structure": 68,
+        "differentiation": 55,
+        "overall": 70
       }
     },
     {
@@ -73,6 +91,15 @@
         "has_contributing": true,
         "has_license_badge": false,
         "has_community_link": true
+      },
+      "scores": {
+        "hero": 80,
+        "visuals": 68,
+        "install": 92,
+        "trust": 67,
+        "structure": 63,
+        "differentiation": 45,
+        "overall": 71
       }
     },
     {
@@ -96,6 +123,15 @@
         "has_contributing": true,
         "has_license_badge": false,
         "has_community_link": true
+      },
+      "scores": {
+        "hero": 80,
+        "visuals": 25,
+        "install": 82,
+        "trust": 55,
+        "structure": 53,
+        "differentiation": 45,
+        "overall": 58
       }
     },
     {
@@ -119,6 +155,15 @@
         "has_contributing": true,
         "has_license_badge": true,
         "has_community_link": true
+      },
+      "scores": {
+        "hero": 80,
+        "visuals": 68,
+        "install": 82,
+        "trust": 55,
+        "structure": 73,
+        "differentiation": 53,
+        "overall": 70
       }
     },
     {
@@ -142,6 +187,15 @@
         "has_contributing": true,
         "has_license_badge": false,
         "has_community_link": false
+      },
+      "scores": {
+        "hero": 80,
+        "visuals": 25,
+        "install": 92,
+        "trust": 35,
+        "structure": 63,
+        "differentiation": 40,
+        "overall": 58
       }
     },
     {
@@ -165,6 +219,15 @@
         "has_contributing": false,
         "has_license_badge": false,
         "has_community_link": true
+      },
+      "scores": {
+        "hero": 80,
+        "visuals": 68,
+        "install": 82,
+        "trust": 42,
+        "structure": 50,
+        "differentiation": 45,
+        "overall": 64
       }
     },
     {
@@ -188,6 +251,15 @@
         "has_contributing": true,
         "has_license_badge": true,
         "has_community_link": true
+      },
+      "scores": {
+        "hero": 80,
+        "visuals": 68,
+        "install": 82,
+        "trust": 83,
+        "structure": 81,
+        "differentiation": 45,
+        "overall": 75
       }
     },
     {
@@ -211,6 +283,15 @@
         "has_contributing": true,
         "has_license_badge": false,
         "has_community_link": true
+      },
+      "scores": {
+        "hero": 80,
+        "visuals": 88,
+        "install": 82,
+        "trust": 62,
+        "structure": 73,
+        "differentiation": 45,
+        "overall": 75
       }
     },
     {
@@ -234,6 +315,15 @@
         "has_contributing": true,
         "has_license_badge": true,
         "has_community_link": true
+      },
+      "scores": {
+        "hero": 80,
+        "visuals": 88,
+        "install": 82,
+        "trust": 63,
+        "structure": 73,
+        "differentiation": 45,
+        "overall": 75
       }
     },
     {
@@ -257,6 +347,15 @@
         "has_contributing": true,
         "has_license_badge": false,
         "has_community_link": true
+      },
+      "scores": {
+        "hero": 80,
+        "visuals": 68,
+        "install": 82,
+        "trust": 67,
+        "structure": 63,
+        "differentiation": 45,
+        "overall": 70
       }
     },
     {
@@ -280,6 +379,15 @@
         "has_contributing": true,
         "has_license_badge": false,
         "has_community_link": true
+      },
+      "scores": {
+        "hero": 80,
+        "visuals": 68,
+        "install": 82,
+        "trust": 47,
+        "structure": 53,
+        "differentiation": 45,
+        "overall": 65
       }
     },
     {
@@ -303,6 +411,15 @@
         "has_contributing": true,
         "has_license_badge": false,
         "has_community_link": false
+      },
+      "scores": {
+        "hero": 80,
+        "visuals": 25,
+        "install": 82,
+        "trust": 43,
+        "structure": 53,
+        "differentiation": 40,
+        "overall": 56
       }
     },
     {
@@ -326,6 +443,15 @@
         "has_contributing": true,
         "has_license_badge": true,
         "has_community_link": false
+      },
+      "scores": {
+        "hero": 65,
+        "visuals": 68,
+        "install": 82,
+        "trust": 43,
+        "structure": 53,
+        "differentiation": 40,
+        "overall": 61
       }
     },
     {
@@ -349,6 +475,15 @@
         "has_contributing": true,
         "has_license_badge": false,
         "has_community_link": true
+      },
+      "scores": {
+        "hero": 70,
+        "visuals": 68,
+        "install": 82,
+        "trust": 67,
+        "structure": 58,
+        "differentiation": 60,
+        "overall": 68
       }
     },
     {
@@ -372,6 +507,15 @@
         "has_contributing": false,
         "has_license_badge": false,
         "has_community_link": false
+      },
+      "scores": {
+        "hero": 80,
+        "visuals": 68,
+        "install": 82,
+        "trust": 50,
+        "structure": 78,
+        "differentiation": 40,
+        "overall": 69
       }
     },
     {
@@ -395,6 +539,15 @@
         "has_contributing": true,
         "has_license_badge": false,
         "has_community_link": false
+      },
+      "scores": {
+        "hero": 80,
+        "visuals": 68,
+        "install": 82,
+        "trust": 55,
+        "structure": 63,
+        "differentiation": 40,
+        "overall": 68
       }
     },
     {
@@ -418,6 +571,15 @@
         "has_contributing": true,
         "has_license_badge": false,
         "has_community_link": true
+      },
+      "scores": {
+        "hero": 65,
+        "visuals": 68,
+        "install": 82,
+        "trust": 87,
+        "structure": 73,
+        "differentiation": 45,
+        "overall": 71
       }
     },
     {
@@ -441,6 +603,15 @@
         "has_contributing": true,
         "has_license_badge": true,
         "has_community_link": true
+      },
+      "scores": {
+        "hero": 80,
+        "visuals": 68,
+        "install": 82,
+        "trust": 75,
+        "structure": 73,
+        "differentiation": 45,
+        "overall": 73
       }
     }
   ],
@@ -461,5 +632,14 @@
     "avg_total_lines": 196.8,
     "avg_badges_count": 3.3,
     "avg_code_blocks": 3.5
+  },
+  "category_averages": {
+    "hero": 78,
+    "visuals": 63,
+    "install": 83,
+    "trust": 59,
+    "structure": 65,
+    "differentiation": 45,
+    "overall": 68
   }
 }

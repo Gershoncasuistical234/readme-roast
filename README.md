@@ -14,7 +14,7 @@
 
 ---
 
-Your README is your landing page. If visitors can't understand what your project does in 5 seconds, they leave. README Roast scores your README against patterns from top-starred repos in your category and tells you exactly what to fix — backed by benchmark data from 90 repos across 6 categories.
+Your README is your landing page. If visitors can't understand what your project does in 5 seconds, they leave. README Roast scores your README against patterns from top-starred repos in your category and tells you exactly what to fix — backed by benchmark data from 116 repos with 4.8M combined stars across 6 categories.
 
 We roasted our own README first. It scored **47/100**. We fixed it. You're reading the result.
 
@@ -98,18 +98,18 @@ README Score = (Hero × 25%) + (Visuals × 20%) + (Install × 15%)
 | **Structure** (15%) | Scannable in 30 seconds? TOC, headings, bullets? |
 | **Differentiation** (10%) | Why this over alternatives? Clear CTA? |
 
-Each dimension is scored against **real benchmark data** from 15-20 top repos in your category — not generic advice.
+Each dimension is scored against **real benchmark data** from 17-20 top repos in your category (verified via GitHub API, 4.8M combined stars) — not generic advice.
 
 ## Benchmark Categories
 
-| Category | Repos | Examples |
-|----------|-------|---------|
-| CLI Tools | 15 | ripgrep, fzf, bat, starship, lazygit |
-| AI/ML | 15 | ollama, langchain, open-interpreter, dspy |
-| Web Frameworks | 15 | next.js, astro, fastapi, supabase, hono |
-| Testing | 15 | playwright, vitest, cypress, jest, k6 |
-| DevOps | 15 | terraform, caddy, traefik, dagger, act |
-| Library | 15 | axios, zod, pydantic, rich, tanstack-query |
+| Category | Repos | Combined Stars | Examples |
+|----------|-------|---------------|---------|
+| CLI Tools | 20 | 790K | ripgrep, fzf, bat, starship, lazygit, hyperfine |
+| AI/ML | 20 | 1.4M | ollama, langchain, llama.cpp, transformers, vllm |
+| Web Frameworks | 19 | 826K | fastapi, astro, supabase, nuxt, gin, flask |
+| Testing | 20 | 523K | playwright, cypress, jest, puppeteer, k6, hurl |
+| DevOps | 20 | 556K | terraform, caddy, traefik, k9s, act, argo-cd |
+| Library | 17 | 707K | axios, rich, polars, zustand, tanstack-query, dayjs |
 
 Your repo is auto-detected into a category based on GitHub topics, language, and description.
 
@@ -176,7 +176,7 @@ Then use `/readme-compare` to see exactly which changes moved the needle.
         └── Auto-save → .readme-roast/snapshots/
 ```
 
-14 Claude Code skills, 3 parallel subagents, 6 benchmark categories.
+14 Claude Code skills, 3 parallel subagents, 116 benchmarked repos (4.8M combined stars).
 
 ## Contributing
 

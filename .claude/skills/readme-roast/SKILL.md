@@ -168,16 +168,16 @@ README_Score = (Hero * 0.25) + (Visuals * 0.20) + (Install * 0.15) + (Trust * 0.
 
 ## Benchmark Data
 
-Pre-analyzed patterns from top-starred repos in 6 categories, stored in `benchmarks/*.json`:
+Verified patterns from 116 top-starred repos (4.8M combined stars) across 6 categories, stored in `benchmarks/*.json`:
 
-| Category | File | Repos |
-|----------|------|-------|
-| CLI Tools | `benchmarks/cli-tools.json` | ripgrep, fd, bat, fzf, jq, httpie, starship, etc. |
-| AI/ML | `benchmarks/ai-ml.json` | langchain, ollama, llamaindex, dspy, instructor, etc. |
-| Web Frameworks | `benchmarks/web-frameworks.json` | next.js, astro, fastapi, hono, drizzle, etc. |
-| Testing | `benchmarks/testing.json` | playwright, vitest, pytest, cypress, k6, etc. |
-| DevOps | `benchmarks/devops.json` | terraform, pulumi, caddy, traefik, dagger, etc. |
-| Library | `benchmarks/library.json` | axios, zod, pydantic, rich, tanstack-query, etc. (default fallback) |
+| Category | File | Repos | Combined Stars |
+|----------|------|-------|---------------|
+| CLI Tools | `benchmarks/cli-tools.json` | 20 (ripgrep, fzf, bat, starship, lazygit, hyperfine...) | 790K |
+| AI/ML | `benchmarks/ai-ml.json` | 20 (ollama, langchain, llama.cpp, transformers, vllm...) | 1.4M |
+| Web Frameworks | `benchmarks/web-frameworks.json` | 19 (fastapi, astro, supabase, nuxt, gin, flask...) | 826K |
+| Testing | `benchmarks/testing.json` | 20 (playwright, cypress, jest, puppeteer, k6, hurl...) | 523K |
+| DevOps | `benchmarks/devops.json` | 20 (terraform, caddy, traefik, k9s, act, argo-cd...) | 556K |
+| Library | `benchmarks/library.json` | 17 (axios, rich, polars, zustand, dayjs...) | 707K |
 
 Each benchmark includes:
 - Per-repo scores across all 6 categories

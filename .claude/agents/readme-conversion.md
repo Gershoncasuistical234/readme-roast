@@ -93,9 +93,11 @@ Evaluate positioning and calls-to-action:
 
 2. **CTA clarity (30% of diff score):**
    - Is there an explicit call to action? (star, install, join community)
+   - Is there a star CTA specifically? ("Star if this helped", "Give it a star", ⭐ emoji with ask)
    - Are docs/community links prominent?
    - Is the "what do I do next?" clear?
-   - Score: Multiple clear CTAs = 90+, some = 50-69, none = 0-29
+   - Score: Star CTA + community + docs = 90+, some CTAs = 50-69, none = 0-29
+   - Note: only ~20% of top repos have explicit star CTAs, but those that do tend to have higher star velocity in the first month
 
 3. **Feature differentiation (30% of diff score):**
    - Do feature descriptions explain WHY this approach is different?

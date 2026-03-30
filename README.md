@@ -183,6 +183,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). PRs welcome, especially for:
 - New benchmark categories (mobile, gamedev, data engineering, etc.)
 - Scoring rubric refinements
 
+## Like It? Star It.
+
+If README Roast helped you improve your repo, [give it a star](https://github.com/hidai25/readme-roast). It helps others find it.
+
 ## License
 
 [MIT](LICENSE)

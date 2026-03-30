@@ -69,6 +69,7 @@ Using the same criteria as the benchmark data, extract patterns from the target 
 | `has_contributing` | Section with "contributing" heading or CONTRIBUTING.md link |
 | `has_license_badge` | License badge in README |
 | `has_community_link` | Discord, Slack, Discussions, or Matrix link |
+| `has_star_cta` | Explicit ask to star the repo ("Star if helpful", ⭐ with ask, "Give it a star") |
 
 ### Step 4: Compare Against Benchmarks
 

@@ -26,7 +26,8 @@
         "code_blocks": 86,
         "has_contributing": true,
         "has_license_badge": true,
-        "has_community_link": true
+        "has_community_link": true,
+        "has_star_cta": true
       },
       "scores": {
         "hero": 80,
@@ -58,7 +59,8 @@
         "code_blocks": 4,
         "has_contributing": true,
         "has_license_badge": false,
-        "has_community_link": true
+        "has_community_link": true,
+        "has_star_cta": false
       },
       "scores": {
         "hero": 85,
@@ -90,7 +92,8 @@
         "code_blocks": 1,
         "has_contributing": true,
         "has_license_badge": true,
-        "has_community_link": false
+        "has_community_link": false,
+        "has_star_cta": false
       },
       "scores": {
         "hero": 80,
@@ -122,7 +125,8 @@
         "code_blocks": 4,
         "has_contributing": false,
         "has_license_badge": false,
-        "has_community_link": false
+        "has_community_link": false,
+        "has_star_cta": false
       },
       "scores": {
         "hero": 80,
@@ -154,7 +158,8 @@
         "code_blocks": 2,
         "has_contributing": false,
         "has_license_badge": false,
-        "has_community_link": false
+        "has_community_link": false,
+        "has_star_cta": false
       },
       "scores": {
         "hero": 80,
@@ -186,7 +191,8 @@
         "code_blocks": 2,
         "has_contributing": true,
         "has_license_badge": false,
-        "has_community_link": false
+        "has_community_link": false,
+        "has_star_cta": false
       },
       "scores": {
         "hero": 80,
@@ -218,7 +224,8 @@
         "code_blocks": 0,
         "has_contributing": true,
         "has_license_badge": false,
-        "has_community_link": true
+        "has_community_link": true,
+        "has_star_cta": false
       },
       "scores": {
         "hero": 80,
@@ -250,7 +257,8 @@
         "code_blocks": 19,
         "has_contributing": false,
         "has_license_badge": false,
-        "has_community_link": false
+        "has_community_link": false,
+        "has_star_cta": false
       },
       "scores": {
         "hero": 70,
@@ -282,7 +290,8 @@
         "code_blocks": 5,
         "has_contributing": true,
         "has_license_badge": false,
-        "has_community_link": false
+        "has_community_link": false,
+        "has_star_cta": true
       },
       "scores": {
         "hero": 80,
@@ -314,7 +323,8 @@
         "code_blocks": 13,
         "has_contributing": true,
         "has_license_badge": false,
-        "has_community_link": true
+        "has_community_link": true,
+        "has_star_cta": true
       },
       "scores": {
         "hero": 80,
@@ -346,7 +356,8 @@
         "code_blocks": 8,
         "has_contributing": true,
         "has_license_badge": true,
-        "has_community_link": true
+        "has_community_link": true,
+        "has_star_cta": false
       },
       "scores": {
         "hero": 80,
@@ -378,7 +389,8 @@
         "code_blocks": 4,
         "has_contributing": false,
         "has_license_badge": false,
-        "has_community_link": false
+        "has_community_link": false,
+        "has_star_cta": false
       },
       "scores": {
         "hero": 85,
@@ -410,7 +422,8 @@
         "code_blocks": 2,
         "has_contributing": true,
         "has_license_badge": false,
-        "has_community_link": true
+        "has_community_link": true,
+        "has_star_cta": false
       },
       "scores": {
         "hero": 80,
@@ -442,7 +455,8 @@
         "code_blocks": 12,
         "has_contributing": false,
         "has_license_badge": false,
-        "has_community_link": false
+        "has_community_link": false,
+        "has_star_cta": false
       },
       "scores": {
         "hero": 80,
@@ -474,7 +488,8 @@
         "code_blocks": 0,
         "has_contributing": false,
         "has_license_badge": true,
-        "has_community_link": false
+        "has_community_link": false,
+        "has_star_cta": false
       },
       "scores": {
         "hero": 80,
@@ -506,7 +521,8 @@
         "code_blocks": 11,
         "has_contributing": false,
         "has_license_badge": false,
-        "has_community_link": false
+        "has_community_link": false,
+        "has_star_cta": false
       },
       "scores": {
         "hero": 80,
@@ -538,7 +554,8 @@
         "code_blocks": 29,
         "has_contributing": false,
         "has_license_badge": false,
-        "has_community_link": true
+        "has_community_link": true,
+        "has_star_cta": false
       },
       "scores": {
         "hero": 70,
@@ -567,7 +584,8 @@
     "avg_hero_words": 14.5,
     "avg_total_lines": 300.7,
     "avg_badges_count": 2.4,
-    "avg_code_blocks": 11.9
+    "avg_code_blocks": 11.9,
+    "pct_with_star_cta": 18
   },
   "category_averages": {
     "hero": 79,

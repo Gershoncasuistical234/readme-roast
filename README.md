@@ -1,24 +1,48 @@
-# README Roast
+<p align="center">
+  <h1 align="center">README Roast</h1>
+  <p align="center">
+    <strong>Roast your README against 90 top-starred repos. Find what's killing your stars.</strong>
+  </p>
+</p>
 
-> Audit your GitHub README for star conversion. Score it against patterns from top-starred repos in your category.
+<p align="center">
+  <a href="https://github.com/hidai25/readme-roast/stargazers"><img src="https://img.shields.io/github/stars/hidai25/readme-roast?style=social" alt="Stars"></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License"></a>
+  <a href="https://github.com/hidai25/readme-roast/issues"><img src="https://img.shields.io/github/issues/hidai25/readme-roast" alt="Issues"></a>
+  <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
+</p>
 
-Your README is your landing page. If visitors can't understand what your project does and why they should care in 5 seconds, they leave. README Roast tells you exactly what's killing your star conversion and how to fix it — backed by data from 90 top-performing repos across 6 categories.
+---
+
+Your README is your landing page. If visitors can't understand what your project does in 5 seconds, they leave. README Roast scores your README against patterns from top-starred repos in your category and tells you exactly what to fix — backed by benchmark data from 90 repos across 6 categories.
+
+We roasted our own README first. It scored **47/100**. We fixed it. You're reading the result.
+
+## Prerequisites
+
+**Requires [Claude Code](https://claude.ai/code)** — README Roast runs as Claude Code skills. Install Claude Code first, then:
+
+```bash
+git clone https://github.com/hidai25/readme-roast
+cd readme-roast
+claude
+```
 
 ## Quick Start
 
-```bash
-# Clone the repo
-git clone https://github.com/hidai25/readme-roast
-cd readme-roast
+Inside Claude Code, run:
 
-# Audit any GitHub repo
+```bash
+# Roast any GitHub repo's README
 /readme-audit https://github.com/your/repo
 
-# Or audit the current repo
+# Roast the current repo
 /readme-audit
 ```
 
-Here's what a real audit looks like (run on [EvalView](https://github.com/hidai25/eval-view), 77 stars):
+## Example: Roasting EvalView (77 stars)
+
+We ran `/readme-audit` on [EvalView](https://github.com/hidai25/eval-view) and got this:
 
 ```
 README Score: 77/100 — Good
@@ -40,74 +64,75 @@ Top Star Killers:
 3. Hero (-1 vs avg) — 3 bold paragraphs push the GIF demo to the fold boundary
 ```
 
-## Features
+Not "your README could be better." Instead: "You're 20 points below average on trust signals because 60% of testing repos have 'used by' logos and you don't."
 
-- **Score against real benchmarks** — not vibes, not generic advice. Your README scored against 15-20 top repos in your exact category
-- **6 scoring dimensions** — hero clarity, visual proof, install friction, trust signals, scannability, and differentiation
-- **Star killers identified** — the specific gaps costing you the most stars, ranked by impact
-- **Actionable rewrites** — not "make your README better" but "rewrite your hero like this: [concrete suggestion]"
-- **Category benchmarks** — "73% of top CLI tools have a GIF demo. You don't." That's the kind of feedback that moves people to action
-- **Before/after tracking** — measure the impact of your README changes on your score
-- **Audit history in your repo** — every audit auto-saved to `.readme-roast/`, git-friendly, tracks score progression alongside star growth
-- **Star correlation** — see if your README improvements actually moved the star graph
-- **PDF reports** — shareable, screenshot-able audit reports for posting on X or sharing with your team
-
-## Commands
-
-| Command | What It Does |
-|---------|-------------|
-| `/readme-audit <url>` | Full audit with scores, benchmarks, and action plan |
-| `/readme-hero <url>` | Deep dive on hero section & value prop |
-| `/readme-install <url>` | Install friction analysis |
-| `/readme-trust <url>` | Trust signal scoring |
-| `/readme-visuals <url>` | Visual proof evaluation |
-| `/readme-structure <url>` | Scannability assessment |
-| `/readme-benchmark <url>` | Compare against category leaders |
-| `/readme-report` | Generate shareable markdown report |
-| `/readme-report-pdf` | Generate PDF report with charts |
-| `/readme-compare` | Before/after delta tracking |
-| `/readme-rewrite` | Generate improved sections |
-| `/readme-star-killers` | Show what's killing your stars |
-| `/readme-history` | Audit timeline with score progression |
-| `/readme-history stars` | Score-to-star velocity correlation |
-
-## Scoring
+## What It Scores
 
 ```
-README Score = (Hero × 25%) + (Visuals × 20%) + (Install × 15%) + (Trust × 15%) + (Structure × 15%) + (Differentiation × 10%)
+README Score = (Hero × 25%) + (Visuals × 20%) + (Install × 15%)
+             + (Trust × 15%) + (Structure × 15%) + (Differentiation × 10%)
 ```
 
-| Score | Rating | What It Means |
-|-------|--------|--------------|
-| 85-100 | Excellent | Top-tier README. High star-conversion potential. |
-| 70-84 | Good | Solid foundation with clear improvement opportunities. |
-| 55-69 | Fair | Average. Missing key elements top repos have. |
-| 40-54 | Needs Work | Below average. Multiple gaps reducing conversion. |
-| 0-39 | Critical | README is actively hurting adoption. |
+| Category | What It Checks |
+|----------|---------------|
+| **Hero & Value Prop** (25%) | Can someone understand what this does and why in 5 seconds? |
+| **Visual Proof** (20%) | GIF, screenshot, or demo showing it actually works? |
+| **Install & Quickstart** (15%) | Steps from zero to "wow, this works"? |
+| **Trust Signals** (15%) | Badges, "used by" logos, maintenance signals? |
+| **Structure** (15%) | Scannable in 30 seconds? TOC, headings, bullets? |
+| **Differentiation** (10%) | Why this over alternatives? Clear CTA? |
+
+Each dimension is scored against **real benchmark data** from 15-20 top repos in your category — not generic advice.
 
 ## Benchmark Categories
 
-README Roast ships with pre-analyzed benchmark data for 6 categories (90 repos total):
-
-| Category | Repos Analyzed | Examples |
-|----------|---------------|----------|
+| Category | Repos | Examples |
+|----------|-------|---------|
 | CLI Tools | 15 | ripgrep, fzf, bat, starship, lazygit |
 | AI/ML | 15 | ollama, langchain, open-interpreter, dspy |
 | Web Frameworks | 15 | next.js, astro, fastapi, supabase, hono |
 | Testing | 15 | playwright, vitest, cypress, jest, k6 |
 | DevOps | 15 | terraform, caddy, traefik, dagger, act |
-| Library | 15 | axios, zod, pydantic, rich, tanstack-query (default fallback) |
+| Library | 15 | axios, zod, pydantic, rich, tanstack-query |
 
 Your repo is auto-detected into a category based on GitHub topics, language, and description.
 
-## Architecture
+## All Commands
 
-Built as [Claude Code](https://claude.ai/code) skills — same architecture as [geo-seo-claude](https://github.com/ztrabzada1/geo-seo-claude):
+| Command | What It Does |
+|---------|-------------|
+| `/readme-audit <url>` | Full roast with scores, benchmarks, and action plan |
+| `/readme-audit` | Roast the current repo |
+| `/readme-hero <url>` | Deep dive: hero section & value prop |
+| `/readme-install <url>` | Deep dive: install friction |
+| `/readme-trust <url>` | Deep dive: trust signals |
+| `/readme-visuals <url>` | Deep dive: visual proof |
+| `/readme-structure <url>` | Deep dive: scannability |
+| `/readme-benchmark <url>` | Compare against category leaders |
+| `/readme-report` | Generate shareable markdown report |
+| `/readme-report-pdf` | Generate PDF report with charts |
+| `/readme-compare` | Before/after delta |
+| `/readme-rewrite` | Generate improved README sections |
+| `/readme-star-killers` | Quick diagnostic: what's killing your stars |
+| `/readme-history` | Audit timeline + score progression |
+| `/readme-history stars` | Score-to-star velocity correlation |
 
-- **14 specialized skills** — scoring, benchmarking, reporting, rewriting, and history tracking
-- **3 parallel subagents** — first impression, conversion, and competitive analysis run simultaneously
-- **Benchmark data** — curated JSON files with patterns from 90 top repos across 6 categories
-- **Report generation** — markdown and PDF output with charts and score gauges
+## Track Your Progress
+
+Every audit auto-saves to `.readme-roast/` inside your repo. Git-friendly. Designed to be committed.
+
+```
+/readme-history
+
+Score Progression:
+  #1  2026-03-30  ████████░░░░░░░░░░░░  47/100  Needs Work   ⭐ 1
+  #2  2026-04-05  ████████████░░░░░░░░  65/100  Fair         ⭐ 12   ▲+18
+  #3  2026-04-12  ███████████████░░░░░  78/100  Good         ⭐ 45   ▲+13
+
+Overall: +31 points in 13 days | Stars: 1 → 45
+```
+
+Then use `/readme-compare` to see exactly which changes moved the needle.
 
 ## How It Works
 
@@ -120,32 +145,33 @@ Built as [Claude Code](https://claude.ai/code) skills — same architecture as [
         ├── [Parallel] First Impression Agent
         │   ├── Hero & Value Prop scoring
         │   ├── Visual Proof detection
-        │   └── Structure & Scannability analysis
+        │   └── Structure & Scannability
         │
         ├── [Parallel] Conversion Agent
-        │   ├── Trust Signal scanning
-        │   ├── Install Friction counting
-        │   └── Differentiation & CTA evaluation
+        │   ├── Trust Signals
+        │   ├── Install Friction
+        │   └── Differentiation & CTA
         │
         ├── [Parallel] Competitive Agent
-        │   └── Benchmark comparison against top repos
+        │   └── Benchmark comparison
         │
-        ├── Score aggregation + star killer identification
+        ├── Score aggregation + star killer ranking
         ├── README-AUDIT-REPORT.md
-        └── Auto-save → .readme-roast/snapshots/{timestamp}.json
+        └── Auto-save → .readme-roast/snapshots/
 ```
+
+14 Claude Code skills, 3 parallel subagents, 6 benchmark categories.
 
 ## Contributing
 
-PRs welcome. Especially for:
+See [CONTRIBUTING.md](CONTRIBUTING.md). PRs welcome, especially for:
 - Adding repos to benchmark categories
-- New benchmark categories
+- New benchmark categories (mobile, gamedev, data engineering, etc.)
 - Scoring rubric refinements
-- PDF report improvements
 
 ## License
 
-MIT
+[MIT](LICENSE)
 
 ---
 

